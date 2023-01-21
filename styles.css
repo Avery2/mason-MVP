@@ -1,0 +1,79 @@
+.bigcont {
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(23, 23, 23);
+    margin: 25px;
+}
+
+main {
+    /* align-content: center; */
+}
+
+#bgpic {
+    border-radius: 0px;
+}
+
+#followbtn {
+    background-color: rgb(52, 52, 234);
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    grid-column: 1 / -1;
+    height: fit-content;
+}
+
+#username {
+    padding-top: 5px;
+    font-size: x-large;
+    grid-column: 1 / -1;
+    color: white;
+}
+#jobtitle {
+    grid-column: 1 / -1;
+}
+#worktime {
+    /* grid-column: 1 / -1; */
+}
+#follower {
+    /* grid-column: 1 / -1; */
+}
+
+.infocontainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    color: grey;
+}
+
+/* .infocontainer > p {
+    margin: 0;
+} */
+
+.infocontainer > * {
+    margin: 5px;
+}
+
+#followcount {
+    color: white;
+}
+
+#headpic {
+    border-radius: 50%;
+    width: 150px;
+    border: 2px solid black;
+    opacity: 100%;
+}
+
+#headpiccontainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -75px;
+    margin-bottom: -75px;
+}
